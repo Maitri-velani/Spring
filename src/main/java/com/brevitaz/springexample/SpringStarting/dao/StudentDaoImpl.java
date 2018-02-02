@@ -2,6 +2,7 @@ package com.brevitaz.springexample.SpringStarting.dao;
 
 import com.brevitaz.springexample.SpringStarting.model.Student;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.elasticsearch.action.DocWriteResponse;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.GetRequest;
